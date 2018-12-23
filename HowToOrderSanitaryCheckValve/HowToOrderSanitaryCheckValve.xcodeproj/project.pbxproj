@@ -14,6 +14,13 @@
 		8F75F29921CF1DFE00BDD371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F75F29721CF1DFE00BDD371 /* LaunchScreen.storyboard */; };
 		8F75F2A421CF1DFF00BDD371 /* HowToOrderSanitaryCheckValveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2A321CF1DFF00BDD371 /* HowToOrderSanitaryCheckValveTests.swift */; };
 		8F75F2AF21CF1DFF00BDD371 /* HowToOrderSanitaryCheckValveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2AE21CF1DFF00BDD371 /* HowToOrderSanitaryCheckValveUITests.swift */; };
+		8F75F2BD21CF43EF00BDD371 /* HowToOrderCheckValve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2BC21CF43EF00BDD371 /* HowToOrderCheckValve.swift */; };
+		8F75F2BF21CF44FA00BDD371 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2BE21CF44FA00BDD371 /* Model.swift */; };
+		8F75F2C121CF46E100BDD371 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2C021CF46E100BDD371 /* Size.swift */; };
+		8F75F2C321CF49C200BDD371 /* BodyMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2C221CF49C200BDD371 /* BodyMaterial.swift */; };
+		8F75F2C521CF4A2B00BDD371 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2C421CF4A2B00BDD371 /* Body.swift */; };
+		8F75F2C721CF4B9800BDD371 /* Disc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2C621CF4B9800BDD371 /* Disc.swift */; };
+		8F75F2C921CF4C7500BDD371 /* ORing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75F2C821CF4C7500BDD371 /* ORing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		8F75F2AA21CF1DFF00BDD371 /* HowToOrderSanitaryCheckValveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToOrderSanitaryCheckValveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F75F2AE21CF1DFF00BDD371 /* HowToOrderSanitaryCheckValveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToOrderSanitaryCheckValveUITests.swift; sourceTree = "<group>"; };
 		8F75F2B021CF1DFF00BDD371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F75F2BC21CF43EF00BDD371 /* HowToOrderCheckValve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToOrderCheckValve.swift; sourceTree = "<group>"; };
+		8F75F2BE21CF44FA00BDD371 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8F75F2C021CF46E100BDD371 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		8F75F2C221CF49C200BDD371 /* BodyMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMaterial.swift; sourceTree = "<group>"; };
+		8F75F2C421CF4A2B00BDD371 /* Body.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		8F75F2C621CF4B9800BDD371 /* Disc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc.swift; sourceTree = "<group>"; };
+		8F75F2C821CF4C7500BDD371 /* ORing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,13 @@
 			children = (
 				8F75F28E21CF1DDF00BDD371 /* AppDelegate.swift */,
 				8F75F29021CF1DDF00BDD371 /* ViewController.swift */,
+				8F75F2BC21CF43EF00BDD371 /* HowToOrderCheckValve.swift */,
+				8F75F2BE21CF44FA00BDD371 /* Model.swift */,
+				8F75F2C021CF46E100BDD371 /* Size.swift */,
+				8F75F2C221CF49C200BDD371 /* BodyMaterial.swift */,
+				8F75F2C421CF4A2B00BDD371 /* Body.swift */,
+				8F75F2C621CF4B9800BDD371 /* Disc.swift */,
+				8F75F2C821CF4C7500BDD371 /* ORing.swift */,
 				8F75F29221CF1DDF00BDD371 /* Main.storyboard */,
 				8F75F29521CF1DFE00BDD371 /* Assets.xcassets */,
 				8F75F29721CF1DFE00BDD371 /* LaunchScreen.storyboard */,
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F75F2C721CF4B9800BDD371 /* Disc.swift in Sources */,
+				8F75F2C321CF49C200BDD371 /* BodyMaterial.swift in Sources */,
+				8F75F2C521CF4A2B00BDD371 /* Body.swift in Sources */,
 				8F75F29121CF1DDF00BDD371 /* ViewController.swift in Sources */,
+				8F75F2C121CF46E100BDD371 /* Size.swift in Sources */,
+				8F75F2C921CF4C7500BDD371 /* ORing.swift in Sources */,
 				8F75F28F21CF1DDF00BDD371 /* AppDelegate.swift in Sources */,
+				8F75F2BD21CF43EF00BDD371 /* HowToOrderCheckValve.swift in Sources */,
+				8F75F2BF21CF44FA00BDD371 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

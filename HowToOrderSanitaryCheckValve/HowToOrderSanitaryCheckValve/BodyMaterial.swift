@@ -1,20 +1,13 @@
 //
-//  ViewController.swift
+//  BodyMaterial.swift
 //  HowToOrderSanitaryCheckValve
 //
 //  Created by Carlos Santiago Cruz on 12/22/18.
 //  Copyright © 2018 Carlos Santiago Cruz. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-
-
+struct BodyMaterial {
+    let code = [ "6L":"ASTM A479, 316L" ]
 }
-

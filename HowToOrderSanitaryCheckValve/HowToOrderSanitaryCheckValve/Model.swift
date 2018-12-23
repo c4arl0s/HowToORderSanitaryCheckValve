@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct Model {
+    let code = ["SHC":"Standard"]
+}
